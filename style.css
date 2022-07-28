@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Manrope:wght@200;400;800&family=Montserrat:wght@500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Manrope';
+}
+
+.container {
+    background-color: hsl(217, 19%, 24%);
+    width: 33%;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 30px 30px 20px 30px;
+}
+
+.container p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 800;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 2px;
+}
+
+#ide {
+    padding-left: -5px;
+}
+.container h2 {
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.mark {
+    display: flex;
+}
+
+.container .line {
+   background-color: hsl(217, 19%, 38%);
+    height: 1px;
+    width: 10.8rem;
+    margin-top: 1.7rem;
+}
+
+.container .mark span {
+    color: hsl(193, 38%, 86%);
+    padding: 0 .7rem;
+    font-size: 4rem;
+    font-weight: 200;
+}
+
+#image {
+    background-color: hsl(150, 100%, 66%);
+    padding: 15px 18px 13px;
+    border-radius: 50%;
+    margin-top: -1.8rem;
+    cursor: pointer;
+}
+
+#image:hover {
+    background-color: #000;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 300px;
+    }
+}
